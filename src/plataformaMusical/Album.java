@@ -4,12 +4,12 @@ import java.util.LinkedHashSet;
 import java.util.Objects;
 import java.util.Set;
 
-public class Album {
+public class Album extends Multimedia{
 
     private Set<Cancion> canciones = new LinkedHashSet<>();
 
-    public Album(String titulo, Artista artista, int año) {
-        super(titulo, artista, año);
+    public Album(String titulo, Artista artista, int anio) {
+        super(titulo, artista, anio);
     }
 
     public void agregarCancion(Cancion cancion) {
@@ -47,7 +47,7 @@ public class Album {
         Album album = (Album) obj;
         return Objects.equals(getTitulo(), album.getTitulo()) &&
                 Objects.equals(getArtista(), album.getArtista()) &&
-                getAño() == album.getAño();
+                getAnio() == album.getAnio();
     }
 
 }

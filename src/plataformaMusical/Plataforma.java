@@ -27,14 +27,14 @@ public class Plataforma {
         return artista;
     }
 
-    public Album crearAlbum(String titulo, Artista artista, int año) {
-        Album album = new Album(titulo, artista, año);
+    public Album crearAlbum(String titulo, Artista artista, int anio) {
+        Album album = new Album(titulo, artista, anio);
         albumes.add(album);
         return album;
     }
 
-    public Cancion crearCancion(String titulo, Artista artista, Album album, int año) {
-        Cancion cancion = new Cancion(titulo, artista, album, año);
+    public Cancion crearCancion(String titulo, Artista artista, Album album, int anio) {
+        Cancion cancion = new Cancion(titulo, artista, album, anio);
         canciones.add(cancion);
         return cancion;
     }
@@ -45,8 +45,8 @@ public class Plataforma {
         return playlist;
     }
 
-    public Usuario registrarUsuario(String nombreUsuario, String contraseña) {
-        Usuario usuario = new Usuario(nombreUsuario, contraseña);
+    public Usuario registrarUsuario(String nombreUsuario, String contrasenia) {
+        Usuario usuario = new Usuario(nombreUsuario, contrasenia);
         usuarios.add(usuario);
         return usuario;
     }

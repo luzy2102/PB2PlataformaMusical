@@ -4,12 +4,12 @@ public class Multimedia {
     //Multimedia es una clase abstracta que sirve para representar los elementos en común que tienen "Album" y "Cancion"
     private String titulo;
     private Artista artista;
-    private int año;
+    private int anio;
 
-    public Multimedia(String titulo, Artista artista, int año) {
+    public Multimedia(String titulo, Artista artista, int anio) {
         this.titulo 	= titulo;
         this.artista 	= artista;
-        this.año 		= año;
+        this.anio 		= anio;
     }
 
     public String getTitulo() {
@@ -28,12 +28,12 @@ public class Multimedia {
         this.artista = artista;
     }
 
-    public int getAño() {
-        return año;
+    public int getAnio() {
+        return anio;
     }
 
-    public void setAño(int año) {
-        this.año = año;
+    public void setAnio(int anio) {
+        this.anio = anio;
     }
 
 }

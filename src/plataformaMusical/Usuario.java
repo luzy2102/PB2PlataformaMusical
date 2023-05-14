@@ -3,19 +3,19 @@ package plataformaMusical;
 public class Usuario {
 
     private String usuario;
-    private String contraseña;
+    private String contrasenia;
 
-    public Usuario(String usuario, String contraseña) {
+    public Usuario(String usuario, String contrasenia) {
         this.usuario 		= usuario;
-        this.contraseña 	= contraseña;
+        this.contrasenia 	= contrasenia;
     }
 
     public String getUsuario() {
         return usuario;
     }
 
-    public boolean checkearContraseña(String contraseña) {
-        return this.contraseña.equals(contraseña);
+    public boolean checkearContrasenia(String contrasenia) {
+        return this.contrasenia.equals(contrasenia);
     }
 
 }

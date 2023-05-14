@@ -22,7 +22,7 @@ private Plataforma plataforma;
 		Usuario usuario = plataforma.registrarUsuario("patricio", "password");
 	    assertNotNull(usuario);
 	    assertEquals("patricio", usuario.getUsuario());
-	    assertTrue(usuario.checkearContraseña("password"));
+	    assertTrue(usuario.checkearContrasenia("password"));
 	}
 	
 	@Test
@@ -88,6 +88,7 @@ private Plataforma plataforma;
 	    assertEquals(cancionesEnElDisco, cancionesEsperadas);
 	  }
 	  
+	  @Test
 	  public void ObtenerDuracionDeUnDisco() {
 	    Artista artista = new Artista("Queen", "Rock");
 	    Album album = new Album("Sheer Heart Attack", artista, 1980);
