@@ -1,4 +1,4 @@
-# PlataformaMusicalPB2
+# PB2PlataformaMusical
 ### Primer parcial de Programación básica 2 de la UNLaM
 
 Programa basado en una plataforma musical online permite a los usuarios escuchar y crear listas de reproducción de canciones. La plataforma contiene información sobre artistas, álbumes y canciones.
